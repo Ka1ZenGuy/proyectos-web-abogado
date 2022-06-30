@@ -1,0 +1,18 @@
+.nombre img{
+    width: 25%;
+    height: 25%;
+    display: flex; 
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    
+}
+.nombre{ 
+    border: 1px solid violet;
+    text-align: center;
+    padding: 10px 10px 10px 10px ;
+    vertical-align: middle;
+
+}
+.nombrefuente{
+    vertical-align: middle;
+}
