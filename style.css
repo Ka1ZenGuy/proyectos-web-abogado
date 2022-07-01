@@ -1,5 +1,5 @@
 body{
-    background-image: url(/proyectos-web-abogado/checkerboard-cross.webp);
+    background-image: url(/proyectos-web-abogado/swirl_pattern.webp);
 }
 .nombre img {
     width: 25%;
@@ -9,6 +9,10 @@ body{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 
 }
+.redes{
+    border: 1px solid black;
+    vertical-align: ;
+}
 
 .nombre {
     border: 2px solid rgba(255, 255, 0, 0.61);
@@ -16,8 +20,13 @@ body{
     padding: 10px 10px 10px 10px;
     vertical-align: middle;
 }
+.Oficio{
+    text-align: center;
+    font-weight: 600
+    ;
+}
 
-.Oficio {
+body {
     font-family: 'Gentium Book Plus', serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -52,6 +61,11 @@ body{
     border: 1px solid black;
     background-color: rgb(253, 202, 100);
     box-shadow: 2px 2px 2px 2px; 
+}
+.servicios {
+    padding: 5px 5px 5px 5px ;
+    border: 1px solid black;
+
 }
 .Empresas{
     display: flex;
