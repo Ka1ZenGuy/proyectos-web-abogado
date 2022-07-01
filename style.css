@@ -1,39 +1,85 @@
-.nombre img{
+body{
+    background-image: url(/proyectos-web-abogado/checkerboard-cross.webp);
+}
+.nombre img {
     width: 25%;
     height: 25%;
-    display: flex; 
+    display: flex;
     border-radius: 50%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
-    
+
 }
-.nombre{ 
+
+.nombre {
     border: 2px solid rgba(255, 255, 0, 0.61);
     text-align: center;
-    padding: 10px 10px 10px 10px ;
+    padding: 10px 10px 10px 10px;
     vertical-align: middle;
 }
-.Oficio
-{
+
+.Oficio {
     font-family: 'Gentium Book Plus', serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
-.clientessatisfechos{
+
+.clientessatisfechos {
     display: flex;
-    border: 1px solid gray ;
+    border: 1px solid gray;
     box-sizing: border-box;
     margin: 10%;
     list-style-type: none;
     justify-content: space-between;
     flex-wrap: wrap;
-    font-display:calc(100% / 3)
+    font-display: bottom;
 
 }
 
-.cliente img{
-    width: calc(100% / 3);
+.cliente img {
+    width: 50%;
     height: auto;
+    border-radius: 50%;
+
+}
+
+.cliente {
+    width: calc(100% /3);
+
+}
+.contacto{
+    border: 1px solid black;
+    background-color: rgb(253, 202, 100);
+    box-shadow: 2px 2px 2px 2px; 
+}
+.Empresas{
+    display: flex;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin: 10%;
+    list-style-type: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-display: bottom;
+}
+.empresa img{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+
+}
+.empresa{
+    width: calc(100% /3);
+
+}
+#paquito {
+    font-weight:800;
+}
+#Viajes{
+    font-weight:800;
     
+}
+#Yummy{
+    font-weight:800;
 }
